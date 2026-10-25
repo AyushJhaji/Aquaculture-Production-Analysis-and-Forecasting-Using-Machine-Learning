@@ -7,7 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1hUBCBd3iXNQs9zlxG3UsZ0YJY7HYdxK8
 """
 
-!pip install streamlit plotly statsmodels scikit-learn pandas numpy
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
 
 import streamlit as st
 import pandas as pd
