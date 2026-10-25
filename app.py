@@ -9,6 +9,17 @@ Original file is located at
 
 !pip install streamlit plotly statsmodels scikit-learn pandas numpy
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+from statsmodels.tsa.holtwinters import Holt
+
 import pandas as pd
 import os
 
